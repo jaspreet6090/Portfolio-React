@@ -11,7 +11,8 @@ export default {
         primary: '#532b88',
         secondary: "#9b72cf",
         blackColor : "#242038",
-        whiteColor : "#f4effa"
+        whiteColor : "#f4effa",
+        bgColor : "#1c1a27"
       }
     }
   },

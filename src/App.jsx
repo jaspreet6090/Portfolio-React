@@ -1,17 +1,18 @@
 import React from 'react'
-import {Navbar}from './components'
+import Header from './components/Header/Header'
 
 
 const App = () => {
  
   return (
     //Container
-    <div className="  h-auto">
-      <div className='ml-20 mr-20 '>  
-    <Navbar/>
-    </div>
+    <div className="lg:mx-28 p-4 sm:mx-3">
+      <Header/>
 
-  </div>
+      <div className="h-[45rem] w-full bg-pink-100">
+
+      </div>
+    </div>
   )
 }
 

@@ -1,30 +1,80 @@
 import React from 'react';
-import { BrowserRouter as Router, NavLink ,Link } from 'react-router-dom';
-import logo from '../../assets/logo.png';
+import { Link } from 'react-router-dom';
 import ActiveBtn from '../Buttons/ActiveBtn';
 
 const Navbar = () => {
-  const [showMenu , setShowMenu] = React.useState(false)
-
+ 
   return (
-      <Router>
-    <div className='flex justify-between items-center  pl-4 pr-4 text-lg mt-4 mb-4 h-12 text-white'>
-      <Link to="/">
-        <img src={logo} alt="" className='h-20' />
-      </Link>
-
-      <div className='flex gap-2' >
-        <NavLink to="#" className='mr-4'  >Home</NavLink>
-        <NavLink to="#about" className='mr-4'>About</NavLink>
-        <NavLink to="#contact" className='mr-4'>Contact</NavLink>
-        <NavLink to="#services" className='mr-4'>Services</NavLink>
-        <NavLink to="#blog" className='mr-4'>Blog</NavLink>
+    <nav className='hidden sm:block'>
+      <div className="flex gap-7 text-lg  text-white  ">
+      <Link
+          to="#"
+          className="h-7"
+        >
+       <div className="hover:text-secondary hover:border-b-2 hover:border-secondary transition duration-300">
+        Home
+       </div>
+        </Link>
+        <Link
+          to="#"
+          className="h-7"
+        >
+       <div className="hover:text-secondary hover:border-b-2 hover:border-secondary transition duration-300">
+        Home
+       </div>
+        </Link>
+        <Link
+          to="#"
+          className="h-7"
+        >
+       <div className="hover:text-secondary hover:border-b-2 hover:border-secondary transition duration-300">
+        Home
+       </div>
+        </Link>
+        <Link
+          to="#"
+          className="h-7"
+        >
+       <div className="hover:text-secondary hover:border-b-2 hover:border-secondary transition duration-300">
+        Home
+       </div>
+        </Link>
+        <Link
+          to="#"
+          className="h-7"
+        >
+       <div className="hover:text-secondary hover:border-b-2 hover:border-secondary transition duration-300">
+        Home
+       </div>
+        </Link>
       </div>
-      <ActiveBtn value="Github"/>
-      </div>
-    
-    </Router>
+    </nav>
   );
 }
 
-export default Navbar;
+
+
+
+function NavMob() {
+  return (
+    <nav className='absolute right-4  bg-bgColor text-white p-5 w-1/3 '>
+      <div className='flex flex-col text-lg gap-4   mb-4'>
+        <Link><div className="hover:text-secondary  hover:border-secondary transition duration-300">
+        Home
+       </div></Link>
+        <Link><div className="hover:text-secondary  hover:border-secondary transition duration-300">
+        Home
+       </div></Link>
+        <Link><div className="hover:text-secondary  hover:border-secondary transition duration-300">
+        Home
+       </div></Link>
+        <Link><div className="hover:text-secondary  hover:border-secondary transition duration-300">
+        Home
+       </div></Link>
+      </div>
+      <ActiveBtn value=<i class="fa-brands fa-github"></i>/>
+    </nav>
+  );
+}
+
+export  {NavMob , Navbar};
