@@ -2,6 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import ActiveBtn from '../Buttons/ActiveBtn';
 
+
 const Navbar = () => {
  
   return (
@@ -55,24 +56,26 @@ const Navbar = () => {
 
 
 
-function NavMob() {
+function NavMob({onClick}) {
   return (
-    <nav className='absolute right-4  bg-bgColor text-white p-5 w-1/3 '>
-      <div className='flex flex-col text-lg gap-4   mb-4'>
-        <Link><div className="hover:text-secondary  hover:border-secondary transition duration-300">
+    <nav className='absolute right-4  bg-bgColor text-white p-10 w-1/2 '>
+      <div className='flex flex-col text-xl gap-6   mb-6'>
+        <Link 
+        onClick={onClick}
+        ><div className="hover:text-secondary  hover:border-secondary transition duration-300">
         Home
        </div></Link>
-        <Link><div className="hover:text-secondary  hover:border-secondary transition duration-300">
+        <Link onClick={onClick}><div className="hover:text-secondary  hover:border-secondary transition duration-300">
         Home
        </div></Link>
-        <Link><div className="hover:text-secondary  hover:border-secondary transition duration-300">
+        <Link onClick={onClick}><div className="hover:text-secondary  hover:border-secondary transition duration-300">
         Home
        </div></Link>
-        <Link><div className="hover:text-secondary  hover:border-secondary transition duration-300">
+        <Link onClick={onClick}><div className="hover:text-secondary  hover:border-secondary transition duration-300">
         Home
        </div></Link>
       </div>
-      <ActiveBtn value=<i class="fa-brands fa-github"></i>/>
+     <ActiveBtn value= <i class="fa-brands fa-github"> </i> redirect="https://github.com/jaspreet6090" />
     </nav>
   );
 }
