@@ -1,0 +1,5 @@
+white : #f4effa
+black : #242038
+darkpurple :2f184b
+dark-light-purple: 532b88
+lightpurple : 9b72cf
