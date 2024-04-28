@@ -1,3 +1,8 @@
-import Navbar from "./Navbar/Navbar";
 
-export { Navbar };
+import Header from "./Header/Header";
+import Main from "./Main/Main";
+import Horizontal from "./Horizontal";
+
+
+
+export {  Header , Main , Horizontal};
