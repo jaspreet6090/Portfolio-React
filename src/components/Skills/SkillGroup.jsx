@@ -1,9 +1,14 @@
 import React from 'react'
+import Skill from './SkillBox'
 
-const SkillGroup = () => {
+const SkillGroup = ({data}) => {
   return (
-    <div>
-      
+    <div className='flex gap-3 flex-wrap '>
+     { data.map((item) => {
+        return (
+          <Skill key={item.id} src={item.src} name= {item.name} />
+        )
+      })}
     </div>
   )
 }
