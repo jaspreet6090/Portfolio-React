@@ -1,5 +1,5 @@
 import React from 'react'
-import {Header , Horizontal, Main , About ,Skill} from './components'
+import {Header , Horizontal, Main , About ,Skill , Experience} from './components'
 
 
 const App = () => {
@@ -13,6 +13,8 @@ const App = () => {
       <About/>
       <Horizontal/>
       <Skill/>
+      <Horizontal/>
+       <Experience/> 
     <div className="h-[100px]"></div>
     </div>
   )
