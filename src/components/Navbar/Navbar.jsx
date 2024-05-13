@@ -26,11 +26,11 @@ const Navbar = () => {
             Home
           </div>
         </Link>
-        <Link to="#" className="h-7">
+        <a href="#contact" className="h-7">
           <div className="hover:text-secondary hover:border-b-2 hover:border-secondary transition duration-300">
-            Home
+            Contact
           </div>
-        </Link>
+        </a>
       </div>
     </nav>
   );
@@ -38,7 +38,7 @@ const Navbar = () => {
 
 function NavMob({ onClick }) {
   return (
-    <nav className='absolute right-4 bg-bgColor text-white p-10 w-1/2'>
+    <nav className='absolute right-0 bg-bgColor text-white p-10 '>
       <div className='flex flex-col text-xl gap-6 mb-6'>
         <Link onClick={onClick}>
           <div className="hover:text-secondary hover:border-secondary transition duration-300">
@@ -61,7 +61,7 @@ function NavMob({ onClick }) {
           </div>
         </Link>
       </div>
-      <ActiveBtn value={<i className="fa-brands fa-github"></i>} redirect="https://github.com/jaspreet6090" />
+      <ActiveBtn value={"Github"} logo={<i className="fa-brands fa-github"></i>} redirect="https://github.com/jaspreet6090" />
     </nav>
   );
 }

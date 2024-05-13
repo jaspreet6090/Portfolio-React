@@ -8,6 +8,7 @@ import Experience from "./Experience/Experience";
 import Project from "./Projects/Projects";
 import Certification  from "./Certifications/Certification";
 import Contact from "./Contact/Contact";
+import Footer from "./Footer/Footer";
 
 export {  
   Header , 
@@ -19,4 +20,5 @@ export {
     Project,
     Certification,
     Contact,
+    Footer,
   };

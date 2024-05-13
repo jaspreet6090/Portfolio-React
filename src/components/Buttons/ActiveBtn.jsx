@@ -1,13 +1,13 @@
 import React from 'react'
 
-const ActiveBtn = ({value = "Active Btn" , redirect}) => {
+const ActiveBtn = ({value = "Active Btn" , redirect ,logo}) => {
   
   return (
 
-     <button className='rounded border-2 border-primary text-lg pl-3 pr-3 pt-1 pb-1 text-primary
+     <button className='rounded border-2 border-primary text-lg px-3 py-1 text-primary
      hover:bg-primary hover:text-white transition duration-300 ease-in-out
      ' 
-     ><a href={redirect}>{value}</a></button>
+     ><a href={redirect}>{logo} {value}</a></button>
   
   )
 }
