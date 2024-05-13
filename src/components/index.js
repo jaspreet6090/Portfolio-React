@@ -7,6 +7,7 @@ import Skill from "./Skills/SkillContainer";
 import Experience from "./Experience/Experience";
 import Project from "./Projects/Projects";
 import Certification  from "./Certifications/Certification";
+import Contact from "./Contact/Contact";
 
 export {  
   Header , 
@@ -17,5 +18,5 @@ export {
     Experience ,
     Project,
     Certification,
-  
+    Contact,
   };
