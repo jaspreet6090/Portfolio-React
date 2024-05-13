@@ -23,7 +23,7 @@ const ExperienceCard = ({
       <div className="">{description}</div>
       <div className="">Skills : <span>{skills.map((skill) => {
         return (
-          <span className="text-primary">{skill}</span>
+          <span className="text-secondary">{skill} </span>
         )
       })}</span></div>
     </div>

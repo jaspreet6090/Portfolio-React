@@ -10,7 +10,9 @@ const Projects = () => {
       <div className="">
         <h2 className='text-white text-2xl font-bold'>Web Dev</h2>
       
-        <div className="flex justify-evenly gap-2 my-5">
+        <div className="flex justify-evenly gap-4 my-5 flex-wrap ">
+          <ProjectCard/>
+          <ProjectCard/>
           <ProjectCard/>
           <ProjectCard/>
         </div>
@@ -18,11 +20,12 @@ const Projects = () => {
       </div>
       <div className="">
         <h2 className='text-white text-2xl font-bold'>Ui/ux</h2>
-        <div className="flex ">
-        <ProjectCard/>
-        <ProjectCard/>
+        <div className="flex justify-evenly gap-4 my-5 flex-wrap ">
+          <ProjectCard/>
+          <ProjectCard/>
+          <ProjectCard/>
+          <ProjectCard/>
         </div>
-      
       </div>
     </section>
   )
