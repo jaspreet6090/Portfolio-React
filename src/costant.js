@@ -22,6 +22,10 @@ const language = [{
 {
   name: "C++",
   src : "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/cplusplus/cplusplus-original.svg"
+},
+{
+  name: "Python",
+  src : "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg"
 }
 ]
 

@@ -13,7 +13,7 @@ const Header = () => {
   };
   return (
     <Router>
-      <header className='flex flex-1  justify-between items-center text-center h-15 my-3'>
+      <header className='flex flex-1  justify-between items-center text-center h-15 my-3 top-0 sticky bg-bgColor py-5 z-10 mt-0'>
         <Link to="/"
           className='text-secondary text-4xl font-bold '>
          

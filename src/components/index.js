@@ -6,6 +6,7 @@ import About from "./About/About";
 import Skill from "./Skills/SkillContainer";
 import Experience from "./Experience/Experience";
 import Project from "./Projects/Projects";
+import Certification  from "./Certifications/Certification";
 
 export {  
   Header , 
@@ -14,6 +15,7 @@ export {
    About ,
     Skill, 
     Experience ,
-    Project
+    Project,
+    Certification,
   
   };
