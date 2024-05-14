@@ -1,3 +1,5 @@
+
+
 const name = `Jaspreet Singh`;
 
 const title = ["Web Developer", "UI/UX Designer", "Freelancer" ,"Engineer😉" ];
@@ -157,7 +159,17 @@ const learning = [
 
 const experience = [
   {
-    img : "https://drive.google.com/file/d/14TrO5D2g9i6QZw8Inx3YQLwXt8Ncpzhi/view?usp=sharing",
+    id:1,
+    img : "src/assets/CS.png",
+    name : "Captain Sales",
+    title : "UI/UX Designer & Frotend Developer",
+    date : "Aug 2023 - Nov 2023 ",
+    description : "Description",
+    skills : ["skill1" , "Skill2"],
+  },
+  {
+    id:2,
+    img : "src/assets/gdsc-logo.png",
     name : "Google Developer Student Club",
     title : "UI/UX Designer",
     date : "Aug 2022 - Present",
@@ -165,14 +177,42 @@ const experience = [
     skills : ["skill1" , "Skill2"],
   },
   {
-    img : "https://drive.google.com/file/d/14TrO5D2g9i6QZw8Inx3YQLwXt8Ncpzhi/view?usp=sharing",
-    name : "Google Developer Student Club",
-    title : "UI/UX Designer",
-    date : "Aug 2022 - Present",
+    id:3,
+    img : "src/assets/CodeClause.png",
+    name:"Code Clause",
+    title : "Web Developer",
+    date : "Aug 2021 - Present",
+    description : "Description",
+    skills : ["skill1" , "Skill2"],
+  },
+  {
+    id:4,
+    img : "src/assets/hacktober.png",
+    name : "Hacktober Fest'23",
+    title : "Open Source",
+    date : "Oct 2022 - Nov 2022",
+    description : "Description",
+    skills : ["skill1" , "Skill2"],
+  },
+  {
+    id:5,
+    img : "src/assets/hacktober.png",
+    name : "Hacktober Fest'22",
+    title : "Open Source",
+    date : "Oct 2022 - Nov 2022",
+    description : "Description",
+    skills : ["skill1" , "Skill2"],
+  },
+  {
+    id:6,
+    img : "src/assets/Datacom.png",
+    name: "Datacom",
+    title : "Web Developer",
+    date : "Aug 2021 - Nov 2021",
     description : "Description",
     skills : ["skill1" , "Skill2"],
   }
-]
+];
 
 export { name, title, description , language, frontend, backend, tools, learning,
 experience,

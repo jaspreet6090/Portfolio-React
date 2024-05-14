@@ -8,21 +8,23 @@ const Experience = () => {
       <p className='text-gray-500 my-3 text-lg'>My professional journey encompasses diverse roles as a Software Engineer and UI/UX Designer across various companies and projects.</p>
 
       <div className="flex justify-evenly items-start flex-wrap gap-6 my-6">
-      {experience.map((exp, index) =>  (<Experience 
-        key={index}
-        
-        name={exp.name}
-        title={exp.title}
-        date={exp.date}
-        description={exp.description}
-        skills={exp.skills}
+      {
+        experience.map((exp) => {
+          return (
+            <ExperienceCard
+              key={exp.id}
+              img={exp.img}
+              name={exp.name}
+              title={exp.title}
+              date={exp.date}
+              description={exp.description}
+              skills={exp.skills}
+            />
+          )
+        })
+      }
 
-        />
-     ))}
-      <ExperienceCard/>
-      <ExperienceCard/>
-      <ExperienceCard/>
-      <ExperienceCard/>
+      
       </div>
     
     </section>

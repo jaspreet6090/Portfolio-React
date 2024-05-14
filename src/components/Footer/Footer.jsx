@@ -36,9 +36,9 @@ const Footer = () => {
 
 
         <div className="flex justify-center space-x-4">
-        {social.map((item) =>{
+        {social.map((item,idx) =>{
           return (
-            <a href={item.link} target="_blank" rel="noreferrer" className="text-white text-3xl hover:text-primary hover:scale-125 transition-all">
+            <a key={idx} href={item.link} target="_blank" rel="noreferrer" className="text-white text-3xl hover:text-primary hover:scale-125 transition-all">
               <i className={`fab ${item.icon}`}></i>
             </a>
           )
