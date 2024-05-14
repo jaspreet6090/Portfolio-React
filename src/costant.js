@@ -160,16 +160,16 @@ const learning = [
 const experience = [
   {
     id:1,
-    img : "src/assets/CS.png",
+    img : "/Logos/CS.png",
     name : "Captain Sales",
     title : "UI/UX Designer & Frotend Developer",
     date : "Aug 2023 - Nov 2023 ",
-    description : "Description",
-    skills : ["skill1" , "Skill2"],
+    description : "During my internship as a UI/UX Designer & Frontend Developer, I led the design of a new project from start to finish, using Figma for design iterations and HTML, CSS, JavaScript, and React for frontend development. As a key member of the team, I contributed significantly to the project's success, gaining valuable experience in both design and development along the way.",
+    skills : ["FIGMA" , "HTML" , "CSS" , "JAVASCRIPT" , "REACTJS"],
   },
   {
     id:2,
-    img : "src/assets/gdsc-logo.png",
+    img : "/Logos/gdsc-logo.png",
     name : "Google Developer Student Club",
     title : "UI/UX Designer",
     date : "Aug 2022 - Present",
@@ -178,7 +178,7 @@ const experience = [
   },
   {
     id:3,
-    img : "src/assets/CodeClause.png",
+    img : "/Logos/CodeClause.png",
     name:"Code Clause",
     title : "Web Developer",
     date : "Aug 2021 - Present",
@@ -187,7 +187,7 @@ const experience = [
   },
   {
     id:4,
-    img : "src/assets/hacktober.png",
+    img : "/Logos/Hacktober.png",
     name : "Hacktober Fest'23",
     title : "Open Source",
     date : "Oct 2022 - Nov 2022",
@@ -196,7 +196,7 @@ const experience = [
   },
   {
     id:5,
-    img : "src/assets/hacktober.png",
+    img : "/Logos/Hacktober.png",
     name : "Hacktober Fest'22",
     title : "Open Source",
     date : "Oct 2022 - Nov 2022",
@@ -205,7 +205,7 @@ const experience = [
   },
   {
     id:6,
-    img : "src/assets/Datacom.png",
+    img : "/Logos/Datacom.png",
     name: "Datacom",
     title : "Web Developer",
     date : "Aug 2021 - Nov 2021",
