@@ -1,9 +1,14 @@
 const name = `Jaspreet Singh`;
 
-const title = ["Web Developer", "UI/UX Designer", "Freelancer" ];
+const title = ["Web Developer", "UI/UX Designer", "Freelancer" ,"Engineer😉" ];
 
- const description = `I am a full-stack web developer and UI/UX designer. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos, quae  Quisquam, voluptate. Quisquam, voluptate. The costant.js file is a file that contains the costants of the project.
-In this case, the file contains the description of the project.`
+ const description = [`Greetings, I’m Jaspreet Singh, an ambitious Btech(IT) scholar from Guru Tegh Bahadur Institute of Technology (GGSIPU), wielding a passion for Full Stack Web Development and UI Design that knows no bounds.`,
+
+` My journey is fueled by a desire to blend technology with creativity, crafting digital landscapes that captivate and engage. With a palette boasting HTML, CSS, and an array of dynamic tools, I possess the skillset to breathe life into your ideas.`,
+ 
+ `Every project is an opportunity to push boundaries and deliver beyond expectations. Whether it's building intuitive user interfaces or architecting seamless web solutions, I'm committed to excellence at every turn.`,
+ 
+ `So, thank you for gracing my corner of the digital world! Let's embark on a journey together, where innovation meets imagination, and dreams become reality.`]
 
 //Skills
 
@@ -150,5 +155,25 @@ const learning = [
 ]
 
 
+const experience = [
+  {
+    img : "https://drive.google.com/file/d/14TrO5D2g9i6QZw8Inx3YQLwXt8Ncpzhi/view?usp=sharing",
+    name : "Google Developer Student Club",
+    title : "UI/UX Designer",
+    date : "Aug 2022 - Present",
+    description : "Description",
+    skills : ["skill1" , "Skill2"],
+  },
+  {
+    img : "https://drive.google.com/file/d/14TrO5D2g9i6QZw8Inx3YQLwXt8Ncpzhi/view?usp=sharing",
+    name : "Google Developer Student Club",
+    title : "UI/UX Designer",
+    date : "Aug 2022 - Present",
+    description : "Description",
+    skills : ["skill1" , "Skill2"],
+  }
+]
 
-export { name, title, description , language, frontend, backend, tools, learning}
+export { name, title, description , language, frontend, backend, tools, learning,
+experience,
+}

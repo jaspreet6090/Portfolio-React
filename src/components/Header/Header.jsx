@@ -13,14 +13,14 @@ const Header = () => {
   };
   return (
     <Router>
-      <header className='flex flex-1  justify-between items-center text-center h-15 my-3 top-0 sticky bg-bgColor py-5 z-10 mt-0'>
-        <Link to="/"
+      <header className='flex  justify-between items-center text-center h-15  bg-bgColor py-5  lg:mx-28 p-4 sm:mx-3'>
+        <a href="#"
           className='text-secondary text-4xl font-bold '>
          
           <motion.div initial={{ opacity: 0, scale: 0.5 }}
     animate={{ opacity: 1, scale: 1 }}
     transition={{ duration: 0.5 }} >JS</motion.div>
-        </Link>
+        </a>
         <div className="block sm:hidden "
          initial={{ opacity: 0, scale: 0.5 }}
     animate={{ opacity: 1, scale: 1 }}
@@ -34,7 +34,7 @@ const Header = () => {
           </div>
         <Navbar />
         <div className="hidden sm:block">
-          <ActiveBtn value="Github " />
+        <ActiveBtn value="Github" logo={<i className="fa-brands fa-github"></i>} redirect="https://github.com/jaspreet6090" />
         </div>
       </header>
 

@@ -9,8 +9,10 @@ const App = () => {
     
     
 <>
-    <div className="lg:mx-28 p-4 sm:mx-3">
+    <div className="sticky top-0 mt-0 z-20">
       <Header/>
+    </div>
+    <div className="lg:mx-28 p-4 sm:mx-3 flex flex-col gap-2">
       <Main/>
       <Horizontal/>
       <About/>

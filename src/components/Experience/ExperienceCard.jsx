@@ -10,7 +10,7 @@ const ExperienceCard = ({
   skills = ["skill1" , "Skill2"],
 }) => {
   return (
-    <div className='border-2 border-primary sm:w-1/2 w-full text-white text-left py-3 px-4 bg-slate-800 rounded-md hover:shadow-lg hover:scale-105 transition-all '>
+    <div className='border-2 border-primary sm:w-1/2 w-full text-white text-left py-3 px-4 bg-slate-800 rounded-md hover:shadow-lg  transition-all '>
 
       <div className="flex items-center gap-2">
         <img src={img} alt="image" className='h-[50px]' />

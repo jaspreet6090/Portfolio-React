@@ -11,7 +11,7 @@ const SkillContainer = () => {
         //add onscroll animations
         className="text-secondary text-3xl  font-bold sm:text-4xl"> Skills</motion.h2>
 
-      <p className='text-gray-500 my-3 text-lg'>Here are some of my skills on which I have been working on for the past 1 year.</p>
+      <p className='text-gray-500 my-3 text-lg'>Here are some of the skills I've dedicated the past year to refining and mastering.</p>
       
       <div className="flex justify-evenly items-start flex-wrap gap-6 my-6">
 

@@ -3,6 +3,8 @@ import React from 'react'
 
 const Footer = () => {
 
+  let date = new Date().getFullYear();
+
   const social = [
     {
       link: "https://github.com/jaspreet6090",
@@ -44,7 +46,7 @@ const Footer = () => {
         
         </div>
         <p className='text-white'>Made with ❤️</p>
-        <p className='text-gray-500'>&copy; 2024 by <a href="#">Jaspreet Singh. All Rights Reserved.</a></p>
+        <p className='text-gray-500'>&copy; {date} by <a href="#">Jaspreet Singh. All Rights Reserved.</a></p>
       </div>
     </footer>
   )
