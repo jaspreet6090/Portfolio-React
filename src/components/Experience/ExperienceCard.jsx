@@ -20,9 +20,10 @@ const ExperienceCard = ({
         <div className="flex flex-col">
           <div className="text-xl text-secondary font-bold">{name}</div>
           <div className="text-sm">{title}</div>
-          <div className="text-sm">{date}</div>
+          <div className="text-sm text-gray-400">{date}</div>
         </div>
       </div>
+      
       <div className="my-2 text-sm">{description}</div>
       <div className="">Skills : <span>{skills.map((skill) => {
         return (
