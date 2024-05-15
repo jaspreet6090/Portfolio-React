@@ -22,7 +22,7 @@ const ProjectCard = ({
           <li key={idx} className='text-primary font-semibold'>• {skill}&nbsp;</li>
         ))}</ul>
       </div>
-      <div className="flex flex-wrap gap-4 mt-2">
+      <div className="flex flex-wrap justify-between gap-2 sm:gap-0 mt-2">
 
         <InactiveBtn value='View Code' logo={<i className="fa-solid fa-code"></i>} redirect={code} />
         <ActiveBtn value='View Live' logo={<i className="fa-solid fa-eye"></i>} redirect={live} />
