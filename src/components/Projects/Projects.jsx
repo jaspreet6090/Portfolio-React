@@ -1,5 +1,6 @@
 import React from 'react'
 import ProjectCard from './ProjectCard'
+import {WebDev} from "../../costant"
 
 const Projects = () => {
   return (
@@ -11,6 +12,12 @@ const Projects = () => {
         <h2 className='text-white text-2xl font-bold'>Web Dev</h2>
       
         <div className="flex justify-evenly gap-4 my-5 flex-wrap ">
+          {
+            WebDev.map((project)=>(
+              <ProjectCard key={project.id} name={project.name} description={project.description} techStack={project.techStack} img={project.img} code={project.code} live={project.link}/>
+            ))
+          }
+
           <ProjectCard/>
           <ProjectCard/>
           <ProjectCard/>

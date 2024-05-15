@@ -203,7 +203,7 @@ const experience = [
     description : "In my role, I focused on identifying and resolving bugs for a movie theater discovery website, collaborating closely with the development team to implement optimizations and enhancements for smoother functionality, thereby prioritizing seamless user experiences.",
     skills : ["HTML" , "CSS" , "JAVASCRIPT" , "REACTJS"],
   },
-  
+
   {
     id:5,
     img : "/Logos/Hacktober.png",
@@ -215,6 +215,31 @@ const experience = [
   },
 ];
 
+//Projects
+const  WebDev = [
+   {
+     id:1,
+    name:"Journe",
+    img:"/ProjectImages/Journee.png",
+    description: "Journee is a dynamic web application inspired by the user-friendly experience of Airbnb. Leveraging the MERN (MongoDB, Express.js, React.js, Node.js) stack, Journee offers a seamless platform for users to discover, book, and manage their travel accommodations.",
+    techStack:["HTML" , "CSS" , "JAVASCRIPT" ,"EXPRESS" , "MONGODB" ,"EJS" ,"NODE"],
+    link:"https://journee-bkg4.onrender.com",
+    code:"https://github.com/jaspreet6090/MajorProject"
+  },
+    {
+      id:2,
+      name:"Code Clause",
+      img:"/Projects/CodeClause.png",
+      description: "Code Clause is a web application that combines a text editor, translator, and expense tracker. Built using HTML, CSS, and JavaScript, Code Clause offers a versatile platform for users to write, translate, and manage their expenses.",
+      techStack:["Skill" , "Skill"],
+      link:"https://codeclause.netlify.app/",
+      code:"https://journee.netlify.app/"
+    }
+  ]
+
+
+
 export { name, title, description , language, frontend, backend, tools, learning,
 experience,
+WebDev,
 }
