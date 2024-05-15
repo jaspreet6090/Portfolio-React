@@ -3,7 +3,7 @@ import { BrowserRouter as Router, Link } from 'react-router-dom';
 import React, { useState } from 'react';
 import { motion } from "framer-motion"
 
-import ActiveBtn from '../Buttons/ActiveBtn';
+import InactiveBtn from '../Buttons/InactiveBtn';
 const Header = () => {
   const [click, setClick] = useState(false);
 
@@ -34,7 +34,7 @@ const Header = () => {
           </div>
         <Navbar />
         <div className="hidden sm:block">
-        <ActiveBtn value="Github" logo={<i className="fa-brands fa-github"></i>} redirect="https://github.com/jaspreet6090" />
+        <InactiveBtn value="Github" logo={<i className="fa-brands fa-github"></i>} redirect="https://github.com/jaspreet6090" />
         </div>
       </header>
 

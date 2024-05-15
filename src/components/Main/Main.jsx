@@ -4,6 +4,7 @@ import ActiveBtn from '../Buttons/ActiveBtn.jsx'
 import Typed from 'typed.js';
 import React from 'react'
 import { motion } from 'framer-motion';
+import InactiveBtn from '../Buttons/InactiveBtn.jsx';
 
 const Main = () => {
   const el = React.useRef(null);
@@ -49,7 +50,7 @@ const Main = () => {
         </div>
         <div className="flex gap-4 ">
           <ActiveBtn value="Resume" logo={<i class="fa-solid fa-file"></i>} redirect="https://drive.google.com/file/d/1iHOoH0hegZ6Fo8pKpj9QqGovKvM15sVA/view?usp=sharing"/>
-          <ActiveBtn value="Contact" logo={<i class="fa-solid fa-message"></i>} redirect="#contact"/>
+          <InactiveBtn value="Contact" logo={<i class="fa-solid fa-message"></i>} redirect="#contact"/>
         </div>
       </motion.div>
 

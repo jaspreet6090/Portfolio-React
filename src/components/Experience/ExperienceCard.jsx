@@ -13,7 +13,7 @@ const ExperienceCard = ({
 }) => {
 
   return (
-    <div className='border-2 border-primary sm:w-1/2 w-full text-white text-left py-3 px-4 bg-slate-800 rounded-md hover:shadow-lg  transition-all '>
+    <div className='border-2 border-primary sm:w-1/2 w-full text-white text-left py-3 px-4 bg-slate-800 rounded-md hover:shadow-md hover:shadow-purple-600 transition-all '>
 
       <div className="flex items-center gap-2">
         <img src={img} alt="image" className='h-[50px] max-w-20' />

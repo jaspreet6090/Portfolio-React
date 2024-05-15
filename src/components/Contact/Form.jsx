@@ -122,7 +122,7 @@ export default function Form() {
           hover:bg-primary hover:text-white transition duration-300 ease-in-out
           my-3 '
         >
-          Send
+          Send &nbsp;<i className="fa-regular fa-paper-plane"></i>
         </button>
 
         <ToastContainer />

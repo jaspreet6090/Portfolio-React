@@ -1,6 +1,6 @@
 import React from 'react';
 
-import ActiveBtn from '../Buttons/ActiveBtn';
+import InactiveBtn from '../Buttons/InactiveBtn';
 
 const Navbar = () => {
   return (
@@ -66,7 +66,7 @@ function NavMob({ onClick }) {
           </div>
         </a>
       </div>
-      <ActiveBtn value={"Github"} logo={<i className="fa-brands fa-github"></i>} redirect="https://github.com/jaspreet6090" />
+      <InactiveBtn value={"Github"} logo={<i className="fa-brands fa-github"></i>} redirect="https://github.com/jaspreet6090" />
     </nav>
   );
 }

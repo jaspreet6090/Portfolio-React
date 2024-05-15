@@ -32,7 +32,14 @@ const Footer = () => {
     <footer className='w-full bg-black   '>
       <div className="text-center py-5 flex flex-col gap-3">
         <p className='text-lg font-bold text-white'>Designed and Developed by <a href="#" className='text-secondary hover:text-primary' >Jaspreet Singh</a>  </p>
-        <p className='text-gray-500 text-sm'>Want to Talk? Connect With Me</p>
+        <p className='text-gray-500 text-sm mt-2'>Want to Talk? Connect With Me</p>
+        <div className=''>
+        <div className='text-primary '> <a href="mailto:jaspreetsingh6090@gmail.com" className='
+        hover:text-secondary'>jaspreetsingh6090@gmail.com</a> &nbsp; |  <a href="tel:8527446184" className='
+        hover:text-secondary'>8527446184</a> </div>
+       
+       
+      </div>
 
 
         <div className="flex justify-center space-x-4">
