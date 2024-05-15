@@ -220,7 +220,7 @@ const  WebDev = [
    {
      id:1,
     name:"Journe",
-    img:"/ProjectImages/Journee.png",
+    img:"/ProjectImages/WebDev/Journee.png",
     description: "Journee is a dynamic web application inspired by the user-friendly experience of Airbnb. Leveraging the MERN (MongoDB, Express.js, React.js, Node.js) stack, Journee offers a seamless platform for users to discover, book, and manage their travel accommodations.",
     techStack:["HTML" , "CSS" , "JAVASCRIPT" ,"EXPRESS" , "MONGODB" ,"EJS" ,"NODE"],
     link:"https://journee-bkg4.onrender.com",

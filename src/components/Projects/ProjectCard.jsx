@@ -13,7 +13,7 @@ const ProjectCard = ({
 }) => {
 
   return (
-    <div className='border-2 border-primary w-96 mx-auto rounded-lg flex flex-col gap-2 items-start text-left text-white py-3 px-5 hover:shadow-lg hover:shadow-purple-600 transition-all hover:cursor-pointer hover:translate-y-[-6px]'>
+    <div className='border-2 border-primary w-96 mx-auto rounded-lg flex flex-col gap-2 text-left text-white py-3 px-5 hover:shadow-lg hover:shadow-purple-600 transition-all hover:cursor-pointer hover:translate-y-[-6px]'>
       <div className="text-xl font-bold text-secondary sm:text-2xl">{name}</div>
       <div className="flex flex-col items-start">
         <img src={img} alt="Project Image" className='h-60 max-w-full rounded-md ' />
@@ -22,7 +22,7 @@ const ProjectCard = ({
           <li key={idx} className='text-primary font-semibold'>• {skill}&nbsp;</li>
         ))}</ul>
       </div>
-      <div className=" space-x-5 mt-2">
+      <div className="flex flex-wrap gap-4 mt-2">
 
         <InactiveBtn value='View Code' logo={<i className="fa-solid fa-code"></i>} redirect={code} />
         <ActiveBtn value='View Live' logo={<i className="fa-solid fa-eye"></i>} redirect={live} />

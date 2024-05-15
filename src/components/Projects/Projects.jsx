@@ -11,7 +11,7 @@ const Projects = () => {
       <div className="">
         <h2 className='text-white text-2xl font-bold'>Web Dev</h2>
       
-        <div className="flex justify-evenly gap-4 my-5 flex-wrap ">
+        <div className="flex items-start justify-evenly gap-4 my-5 flex-wrap ">
           {
             WebDev.map((project)=>(
               <ProjectCard key={project.id} name={project.name} description={project.description} techStack={project.techStack} img={project.img} code={project.code} live={project.link}/>
