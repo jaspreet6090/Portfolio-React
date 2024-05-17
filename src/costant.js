@@ -58,7 +58,7 @@ const frontend = [{
 },
 {
   name:"Tailwind CSS",
-  src:"https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-plain.svg"
+  src:"https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg"
 },
 {
   name:"Bootstrap",
@@ -267,17 +267,46 @@ const WebDev = [
 
 const UiUx = [
   {
+    id:1,
+    name:"Consumate",
+    img:"/ProjectImages/WebDev/Consumate.png",
+    description:"I designed a trail-based web application for Captain Sales using Figma. This app enables users to navigate and manage sales trails efficiently, featuring intuitive access to trails, progress tracking, and real-time analytics. Users can create and edit tasks, set deadlines, and monitor performance, enhancing productivity and sales management.",
+    techStack:["FIGMA"],
+    link:"https://www.figma.com/file/9Zv5uZ2oX2XlJ0zv7ZgQkK/Consumate?node-id=0%3A1",
+    code:"https://www.figma.com/file/9Zv5uZ2oX2XlJ0zv7ZgQkK/Consumate?node-id=0%3A1"
+  },
+  {
     id:2,
+    name:"Portfolio",
+    img:"/ProjectImages/WebDev/Portfolio.png",
+    description:"Designed a personal portfolio website using Figma, showcasing projects, skills, and achievements in an engaging and visually appealing manner. The design focused on creating a seamless user experience, with easy navigation and interactive elements that highlight key information and encourage exploration.",
+    techStack:["FIGMA"],
+    link:"https://www.figma.com/file/9Zv5uZ2oX2XlJ0zv7ZgQkK/Consumate?node-id=0%3A1",
+    code:"https://www.figma.com/file/9Zv5uZ2oX2XlJ0zv7ZgQkK/Consumate?node-id=0%3A1"
+  },
+  {
+    id:3,
     name:"Tiger Dev",
     img:"/ProjectImages/WebDev/Tigerdev.png",
     description: "Collaborated on the 'Preservation of the Himalayan Tiger' NFT project, developing the UI/UX and creating captivating digital art that emphasized the tigers' significance. Played a key role in the project's success through effective communication and teamwork.",
     techStack:["FIGMA", "CANVA","HTML" , "CSS","JAVASCRIPT"],
     link:"https://codeclause.netlify.app/",
     code:"https://journee.netlify.app/"
+  },
+  {
+    id:4,
+    name: "Cash App",
+    img: "/ProjectImages/WebDev/CashApp.png",
+    description:"I designed a CashApp interface in Figma for a task, focusing on an intuitive user experience for managing finances. The app includes key features like sending and receiving money, viewing transaction history, and managing account settings. The design emphasizes a clean, modern look with seamless navigation and interactive prototypes to enhance usability and efficiency.",
+    techStack:["FIGMA"],
+    link:"https://www.figma.com/file/9Zv5uZ2oX2XlJ0zv7ZgQkK/Consumate?node-id=0%3A1",
+    code:"https://www.figma.com/file/9Zv5uZ2oX2XlJ0zv7ZgQkK/Consumate?node-id=0%3A1"
+
   }
 ]
 
 export { name, title, description , language, frontend, backend, tools, learning,
 experience,
 WebDev,
+UiUx,
 }

@@ -9,7 +9,9 @@ const ProjectCard = ({
   techStack = ["Skill", "Skill"],
   img = 'https://www4.instagantt.com/assets/63c5e29f1b5bc83fe0af2489/6424d753f8eb7a9e69c372fc_Gantt%20Chart%20Online%20Software%20Instagantt%20Ideation%202.webp',
   code = "https://github.com/jaspreet6090",
-  live = "https://jaspreetsingh.netlify.app/"
+  live = "https://jaspreetsingh.netlify.app/",
+
+  card = "",
 }) => {
 
   return (
@@ -24,7 +26,10 @@ const ProjectCard = ({
       </div>
       <div className="flex flex-wrap justify-between gap-2 sm:gap-0 mt-2">
 
-        <InactiveBtn value='View Code' logo={<i className="fa-solid fa-code"></i>} redirect={code} />
+        {
+          card === "WebDev" ? <InactiveBtn value='View Code' logo={<i className="fa-solid fa-code"></i>} redirect={code} /> : <InactiveBtn value='View Design' logo={<i class="fa-solid fa-crop-simple"></i>} redirect={code} />
+        }
+
         <ActiveBtn value='View Live' logo={<i className="fa-solid fa-eye"></i>} redirect={live} />
       </div>
     </div>

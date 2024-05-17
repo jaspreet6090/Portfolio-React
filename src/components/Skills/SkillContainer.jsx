@@ -6,7 +6,7 @@ import { motion } from 'framer-motion'
 const SkillContainer = () => {
   return (
     <section className='text-center my-6
-    '>
+    ' id='skill'>
       <motion.h2 
         //add onscroll animations
         className="text-secondary text-3xl  font-bold sm:text-4xl"> Skills</motion.h2>
