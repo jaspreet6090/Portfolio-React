@@ -49,7 +49,7 @@ const Main = () => {
 
         </div>
         <div className="flex gap-4 ">
-          <ActiveBtn value="Resume" logo={<i class="fa-solid fa-file"></i>} redirect="/Jaspreet_Singh_GTBIT.pdf"/>
+          <ActiveBtn value="Resume" logo={<i class="fa-solid fa-file"></i>} redirect="https://drive.google.com/file/d/1w8ddZQYm4h2f4YgWhVpEIdKw9Kt6eDUV/view?usp=drive_link"/>
           <InactiveBtn value="Contact" logo={<i class="fa-solid fa-message"></i>} redirect="#contact"/>
         </div>
       </motion.div>
