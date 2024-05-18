@@ -323,8 +323,43 @@ const UiUx = [
   }
 ]
 
+const certificate = [
+  {
+    name:"DSA",
+    img:"/Certificate/DSA.png"
+  },
+  {
+    name:"WEB DEVELOPMENT(MERN)",
+    img:"/Certificate/MERN.png"
+  },
+  {
+    name:"GDSC",
+    img:"/Certificate/GDSC.jpg"
+  },
+  {
+    name:"WEB DEVELOPMENT BOOTCAMP",
+    img:"/Certificate/Udemy.png"
+  },
+  {
+    name:"Google Cloud",
+    img:"/Certificate/GoogleCloud.png"
+  },
+  {
+    name:"Desginathon",
+    img:"/Certificate/Designathon.png"
+  },
+  {
+    name:"Devathon",
+    img:"/Certificate/Devathon.png"
+  },
+  {
+    name:"UI/UX",
+    img:"/Certificate/UiUx.png"
+  }
+]
 export { name, title, description , language, frontend, backend, tools, learning,
 experience,
 WebDev,
 UiUx,
+certificate
 }

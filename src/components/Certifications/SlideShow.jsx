@@ -1,10 +1,8 @@
 import React from 'react';
+import { certificate } from '../../costant';
 
-const images = [
-  "https://marketplace.canva.com/EAFNlUJs5g4/2/0/1600w/canva-white-simple-certificate-of-appreciation-Fcz7KkZ5YaU.jpg",
-  "https://marketplace.canva.com/EAFNlUJs5g4/2/0/1600w/canva-white-simple-certificate-of-appreciation-Fcz7KkZ5YaU.jpg",
-  "https://marketplace.canva.com/EAFNlUJs5g4/2/0/1600w/canva-white-simple-certificate-of-appreciation-Fcz7KkZ5YaU.jpg"
-];
+
+const images = certificate.map((cert) => cert.img);
 
 const delay = 3000;
 
@@ -12,7 +10,7 @@ const styles = {
   slideshow: {
     margin: "0 auto",
     overflow: "hidden",
-    maxWidth: "500px"
+    maxWidth: "550px"
   },
   slideshowSlider: {
     whiteSpace: "nowrap",
@@ -22,15 +20,15 @@ const styles = {
     display: "inline-block",
     height: "300px",
     width: "100%",
-    borderRadius: "20px"
+    borderRadius: "10px"
   },
   slideshowDots: {
     textAlign: "center"
   },
   slideshowDot: {
     display: "inline-block",
-    height: "15px",
-    width: "15px",
+    height: "10px",
+    width: "10px",
     borderRadius: "50%",
     cursor: "pointer",
     margin: "15px 7px 0px",

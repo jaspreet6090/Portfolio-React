@@ -3,6 +3,7 @@ import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 
 import emailjs from '@emailjs/browser';
+import { motion } from 'framer-motion'
 
 export default function Form() {
   const [formData, setFormData] = useState({
@@ -70,7 +71,12 @@ export default function Form() {
   };
 
   return (
-    <div className="mx-2 sm:mx-20 text-left">
+    <motion.div
+    initial= {{opacity:0, scale:0}}
+         whileInView={{opacity:1 ,scale:1}}
+          transition={{duration:1, ease: "linear"}}
+         viewport={{once:true}}
+           className="mx-2 sm:mx-20 text-left">
       <form ref={form} onSubmit={sendEmail}>
 
         <div className="flex flex-col sm:flex-row gap-2">
@@ -128,6 +134,6 @@ export default function Form() {
         <ToastContainer />
 
       </form>
-    </div>
+    </motion.div>
   );
 }

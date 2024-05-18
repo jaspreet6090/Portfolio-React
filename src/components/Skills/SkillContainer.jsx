@@ -13,14 +13,19 @@ const SkillContainer = () => {
 
       <p className='text-gray-500 my-3 text-lg'>Here are some of the skills I've dedicated the past year to refining and mastering.</p>
       
-      <div className="flex justify-evenly items-start flex-wrap gap-6 my-6">
+      <motion.div
+        initial= {{opacity:0, scale:0}}
+    whileInView={{opacity:1 ,scale:1}}
+    transition={{duration:1, ease: "linear"}}
+    viewport={{once:true}}
+       className="flex justify-evenly items-start flex-wrap gap-6 my-6">
 
       <SkillGroup data={frontend} title="Frontend"/>
       <SkillGroup data={backend} title="Backend"/>
       <SkillGroup data={tools} title="Tools"/>
       <SkillGroup data={language} title="Languages"/>
       <SkillGroup data={learning} title="Learning"/>
-      </div>
+      </motion.div>
     </section>
   )
 }
