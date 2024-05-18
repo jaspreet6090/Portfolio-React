@@ -27,7 +27,7 @@ const ProjectCard = ({
       <div className="flex flex-wrap justify-between gap-2 sm:gap-0 mt-2">
 
         {
-          card === "WebDev" ? <InactiveBtn value='View Code' logo={<i className="fa-solid fa-code"></i>} redirect={code} /> : <InactiveBtn value='View Design' logo={<i class="fa-solid fa-crop-simple"></i>} redirect={code} />
+          card === "WebDev" ? <InactiveBtn value='View Code' logo={<i className="fa-solid fa-code"></i>} redirect={code} /> : <InactiveBtn value='View File' logo={<i class="fa-solid fa-crop-simple"></i>} redirect={code} />
         }
 
         <ActiveBtn value='View Live' logo={<i className="fa-solid fa-eye"></i>} redirect={live} />
