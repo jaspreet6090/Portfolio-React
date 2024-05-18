@@ -269,38 +269,56 @@ const UiUx = [
   {
     id:1,
     name:"Consumate",
-    img:"/ProjectImages/WebDev/Consumate.png",
+    img:"/ProjectImages/UiUx/Consumate.png",
     description:"I designed a trail-based web application for Captain Sales using Figma. This app enables users to navigate and manage sales trails efficiently, featuring intuitive access to trails, progress tracking, and real-time analytics. Users can create and edit tasks, set deadlines, and monitor performance, enhancing productivity and sales management.",
     techStack:["FIGMA"],
-    link:"https://www.figma.com/file/9Zv5uZ2oX2XlJ0zv7ZgQkK/Consumate?node-id=0%3A1",
-    code:"https://www.figma.com/file/9Zv5uZ2oX2XlJ0zv7ZgQkK/Consumate?node-id=0%3A1"
+    link:"https://www.figma.com/proto/YbbMHoMOIsGjBP3MCz9mSn/consumates?page-id=0%3A1&node-id=320-11098&starting-point-node-id=320%3A11097&scaling=min-zoom&t=tljMgwb7fyiSGoNc-1",
+    code:"https://www.figma.com/design/YbbMHoMOIsGjBP3MCz9mSn/consumates?node-id=320%3A11098&t=alpi3VHgMOSOMIWh-1"
   },
   {
     id:2,
-    name:"Portfolio",
-    img:"/ProjectImages/WebDev/Portfolio.png",
-    description:"Designed a personal portfolio website using Figma, showcasing projects, skills, and achievements in an engaging and visually appealing manner. The design focused on creating a seamless user experience, with easy navigation and interactive elements that highlight key information and encourage exploration.",
-    techStack:["FIGMA"],
-    link:"https://www.figma.com/file/9Zv5uZ2oX2XlJ0zv7ZgQkK/Consumate?node-id=0%3A1",
-    code:"https://www.figma.com/file/9Zv5uZ2oX2XlJ0zv7ZgQkK/Consumate?node-id=0%3A1"
+    name:"Streamy",
+    img:"/ProjectImages/UiUx/Streamy.png",
+    description:"Designed a streaming service web application using Figma, featuring a user-friendly interface for browsing, watching, and managing video content. The design focused on creating an engaging experience for users, with intuitive navigation, personalized recommendations, and interactive elements that enhance the viewing experience.",
+    techStack:["FIGMA","BEHANCE"],
+    link:"https://www.figma.com/proto/yHS4QrunrJe0CJgb7E0O00/Video-Streaming-App?page-id=90%3A170&node-id=1332-16&viewport=629%2C429%2C0.09&t=6Vz0x4aRzITmXr6F-1&scaling=scale-down&starting-point-node-id=1325%3A6&show-proto-sidebar=1",
+    code:"https://www.figma.com/design/yHS4QrunrJe0CJgb7E0O00/Video-Streaming-App?node-id=90%3A170&t=aheXGvudoZ8czT6J-1"
   },
   {
     id:3,
-    name:"Tiger Dev",
-    img:"/ProjectImages/WebDev/Tigerdev.png",
-    description: "Collaborated on the 'Preservation of the Himalayan Tiger' NFT project, developing the UI/UX and creating captivating digital art that emphasized the tigers' significance. Played a key role in the project's success through effective communication and teamwork.",
-    techStack:["FIGMA", "CANVA","HTML" , "CSS","JAVASCRIPT"],
-    link:"https://codeclause.netlify.app/",
-    code:"https://journee.netlify.app/"
+    name:"Brick & Bolt",
+    img:"/ProjectImages/UiUx/Construction.png",
+    description:"Re-Designed a construction management web application using Figma, focusing on a user-friendly interface for project planning, tracking, and collaboration. The design emphasized clear communication, task management, and progress monitoring, enabling users to streamline construction projects and enhance team productivity.",
+    techStack:["FIGMA"],
+    link:"https://www.figma.com/proto/5dBK5isggfihmsZMU8cvWY/Caption-Sales?node-id=1-3&t=cWQC44qqjbgaHO7c-1",
+    code:"https://www.figma.com/design/5dBK5isggfihmsZMU8cvWY/Caption-Sales?node-id=1%3A3&t=ypAy6sRLSR4N1B7U-1"
   },
   {
     id:4,
+    name:"Portfolio",
+    img:"/ProjectImages/UiUx/OldPortfolio.png",
+    description:"Designed a personal portfolio website using Figma, showcasing projects, skills, and achievements in an engaging and visually appealing manner. The design focused on creating a seamless user experience, with easy navigation and interactive elements that highlight key information and encourage exploration.",
+    techStack:["FIGMA"],
+    link:"https://jaspreet6090.github.io/Portfolio/",
+    code:"https://www.figma.com/design/JnDkyG6oa8QIKkpeukhNH8/Portfolio?node-id=401%3A17&t=GwIkiWcBwad8Jxtp-1"
+  },
+  {
+    id:5,
+    name:"Tiger Dev",
+    img:"/ProjectImages/UiUx/Tigerdev.png",
+    description: "Collaborated on the 'Preservation of the Himalayan Tiger' NFT project, developing the UI/UX and creating captivating digital art that emphasized the tigers' significance. Played a key role in the project's success through effective communication and teamwork.",
+    techStack:["FIGMA", "CANVA","HTML" , "CSS","JAVASCRIPT"],
+    link:"https://hackerhouse-gdsc-gtbit.netlify.app/",
+    code:"https://www.figma.com/design/TBv9WLSDSnYvbCP5kzv0Z2/website?node-id=0%3A1&t=ZpPjvhjAWfsAiRir-1"
+  },
+  {
+    id:6,
     name: "Cash App",
-    img: "/ProjectImages/WebDev/CashApp.png",
+    img: "/ProjectImages/UiUx/CashApp.png",
     description:"I designed a CashApp interface in Figma for a task, focusing on an intuitive user experience for managing finances. The app includes key features like sending and receiving money, viewing transaction history, and managing account settings. The design emphasizes a clean, modern look with seamless navigation and interactive prototypes to enhance usability and efficiency.",
     techStack:["FIGMA"],
-    link:"https://www.figma.com/file/9Zv5uZ2oX2XlJ0zv7ZgQkK/Consumate?node-id=0%3A1",
-    code:"https://www.figma.com/file/9Zv5uZ2oX2XlJ0zv7ZgQkK/Consumate?node-id=0%3A1"
+    link:"https://www.figma.com/proto/OoyhsHEsrQ1Glqkfli75Ee/The-AdzPlug-Assg.?embed_host=share&kind=proto&node-id=1-14&starting-point-node-id=1%3A14&t=7SpjgIz03SFXYnSs-1",
+    code:"https://www.figma.com/design/OoyhsHEsrQ1Glqkfli75Ee/The-AdzPlug-Assg.?node-id=0%3A1&t=5yIqeGkkThJghYPB-1"
 
   }
 ]
