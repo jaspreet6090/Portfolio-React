@@ -218,7 +218,25 @@ const experience = [
 //Projects
 const WebDev = [
   {
-    id: 1,
+    id:1,
+    name:"LockMate",
+    img:"/ProjectImages/WebDev/LockMate.png",
+    description: "LockMate is a secure password manager web application built with React.js, Node.js, and MongoDB. It offers users a safe and convenient way to store and manage their passwords, with features like encryption, password generation, and secure login. The app provides a user-friendly interface for easy access to stored passwords and ensures data privacy and security.",
+    techStack:["REACT","HTML", "TAILWIND-CSS", "JAVASCRIPT", "EXPRESS", "MONGODB", "NODE"],
+    link:"https://lockmate.vercel.app/",
+    code:"https://github.com/jaspreet6090/LockMate"
+  },
+  {
+    id:2,
+    name:"CleverBooks",
+    img:"/ProjectImages/WebDev/CleverBooks.png",
+    description:"Created a sophisticated web application clone that leverages AI to provide solutions for brand growth. Developed using modern web technologies and hosted on Netlify, the platform offers an interactive and user-friendly interface tailored for various brands.",
+    techStack:["REACT","HTML", "TAILWIND-CSS", "JAVASCRIPT"],
+    link:"https://clever-books-jaspreet.netlify.app/",
+    code:"https://github.com/jaspreet6090/Clever-Book"
+  },
+  {
+    id: 3,
     name: "Journe",
     img: "/ProjectImages/WebDev/Journee.png",
     description: "Journee is a dynamic web application inspired by the user-friendly experience of Airbnb. Leveraging the MERN (MongoDB, Express.js, React.js, Node.js) stack, Journee offers a seamless platform for users to discover, book, and manage their travel accommodations.",
@@ -227,16 +245,7 @@ const WebDev = [
     code: "https://github.com/jaspreet6090/Journee"
   },
   {
-    id: 2,
-    name: "Tiger Dev",
-    img: "/ProjectImages/WebDev/Tigerdev.png",
-    description: "Collaborated on the 'Preservation of the Himalayan Tiger' NFT project, developing the UI/UX and creating captivating digital art that emphasized the tigers' significance. Played a key role in the project's success through effective communication and teamwork.",
-    techStack: ["FIGMA", "CANVA", "HTML", "CSS", "JAVASCRIPT"],
-    link: "https://hackerhouse-gdsc-gtbit.netlify.app/",
-    code: "https://github.com/jaspreet6090/"
-  },
-  {
-    id:"3",
+    id:"4",
     name:"TODO List",
     img:"/ProjectImages/WebDev/Todo.png",
     description: "The Todo List is a web application built with HTML, CSS, and JavaScript, offering users the ability to create, manage, and delete tasks. The app features a clean and intuitive interface, enabling users to organize their tasks efficiently and stay productive.",
@@ -246,7 +255,7 @@ const WebDev = [
 
   },
   {
-    id: 4,
+    id: 5,
     name:"Language Transaltor",
     img:"/ProjectImages/WebDev/Translator.png",
     description: "The Language Translator is a web application built with HTML, CSS, and JavaScript, offering users the ability to translate text between multiple languages using the Yandex API. The app supports over 90 languages and provides a user-friendly interface for seamless translation.",
@@ -255,7 +264,7 @@ const WebDev = [
     code: "https://github.com/jaspreet6090/Language-Translator"
   },
   {
-    id:5,
+    id:6,
     name: "Text Editor",
     img: "/ProjectImages/WebDev/TextEditor.png",
     description: "The Text Editor is a web-based application built with HTML, CSS, and JavaScript. It offers a simple interface for creating and editing text documents, supporting basic formatting like bold, italic, and underline, along with undo/redo and text search features. Users can save and load documents from local storage, making it versatile for tasks like writing code, taking notes, or drafting documents.",
